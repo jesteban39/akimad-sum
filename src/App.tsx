@@ -10,14 +10,14 @@ import "./App.css";
 
 function App() {
   return (
-    <Provider store={store}>
-      <Router>
+    <Provider store={store}>app
+       {/*<Router>
         <div className="App">
-          {/* <Route path="/" component={NavBar} />
+          <Route path="/" component={NavBar} />
           <Route exact path="/" component={UsersList} />
-          <Route exact path="/users/:userLogin" component={UsersDetail} /> */}
+          <Route exact path="/users/:userLogin" component={UsersDetail} /> 
         </div>
-      </Router>
+      </Router>*/}
     </Provider>
   );
 }
