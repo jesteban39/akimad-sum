@@ -10,7 +10,7 @@ function Sum() {
   };
   const options = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   return (
-    <div className='container'>
+    <div className="container">
       <h1>Select digits to grate a sum</h1>
       <form>
         <label htmlFor="digits">Digits: </label>
@@ -26,7 +26,7 @@ function Sum() {
       <h3>Sum:</h3>
       <span>{digits.reduce((sum, dig) => (sum += dig), 0)}</span>
       <h3>Selected digits:</h3>
-      <div>
+      <div className="selected">
         {digits.length === 0 ? (
           <span>you have no selected any digits</span>
         ) : (

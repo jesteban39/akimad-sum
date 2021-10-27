@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container select {
+  margin: 5px;
+  max-width: 6rem;
+  min-height: 1rem;
+}
+
+.selected {
+  padding: 1rem;
+  border: 1px dashed black;
+  border-radius: 9px;
+  background-color: rgba(128, 128, 128, 0.178);
+  max-width: 16rem;
+  min-height: 3rem;
+}
+
+.selected button {
+  border: none;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin: 3px;
+  border-radius: 16px;
+  min-width: 60px;
+}
